@@ -7,25 +7,75 @@ body{
 h1{
     font-size: 32px;
     color: #011627;
+    font-weight: bold;
 }
 
 /* NAV */
 
 .nav{
-    padding: 20px;
+    min-height: 8vh;
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
     align-items: center;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
 
 }
 
 .nav ul li{
     font-weight: 300;
-    display: inline;
-    padding-left: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    
 
 }
+
+.burger{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 60vh;
+        top: 8vh;
+        background-color: #011627;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        font-size: 22px;
+        transform: translateX(100%);
+        transition: transform 0.7s ease-in;
+
+
+    }
+
+   
+
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    
+}
+
+.nav-active{
+        transform: translateX(0%);
+    }
 
 
 /* section header */
@@ -108,6 +158,8 @@ h1{
     max-width: none;
      
 }
+
+
 
 /* SSERVICIOS
  */
