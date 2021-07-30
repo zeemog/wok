@@ -1,0 +1,192 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    color: #011627;
+}
+
+/* NAV */
+
+.nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-items: center;
+
+}
+
+.nav ul li{
+    font-weight: 300;
+    display: inline;
+    padding-left: 50px;
+
+}
+
+
+/* section header */
+
+.container{
+    
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+    margin-top: 100px;
+}
+
+.columna{
+   display: block;
+   margin: 0;
+   /* align-items: baseline; */
+}
+  
+.bruce img{
+    width: 430px;
+    
+}
+
+.container div h1{
+    color: #011627;
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 95%;
+    
+}
+
+.container div h1 span{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* background-color: #011627; */
+    color: #7AE7C7;
+    font-family: 'lato', sans-serif;
+}
+
+.slogan{
+    margin-bottom: 0px;
+}
+
+@media (max-width:850px){
+    .bruce img{
+        width: 300px;
+    }
+}
+
+@media (max-width:450px){
+    .bruce{
+        display:none;
+    }
+    .container-banner img {
+        display: block;
+        /* max-width: none; */
+    
+    }
+}
+/* banner maneki */
+
+
+.container-banner{
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.container-banner img {
+    display: block;
+    max-width: none;
+
+}
+
+/* SSERVICIOS
+ */
+.serv{
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.serv h1{
+    text-align: center;
+}
+
+.serv p{
+    padding: 10px;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.hr{
+    width: 30%;
+    color: #011627;
+    
+}
+
+
+/* Planes */
+
+.planes{
+    padding: 50px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.planes div{
+    /* background-color: red; */
+    width: 23%;
+    /* margin: 8px; */
+    border: solid 0.5px gray;
+    border-radius: 30px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.planes div h1 {
+    color: #011627;
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+.planes div p{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.planes div a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #011627;
+    background-color: #7AE7C7;
+    padding: 10px 30px 10px 30px;
+    border-radius: 55px;
+}
+
+@media (max-width: 900px){
+    .planes div{
+        width: 45%;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 450px){
+    .planes div{
+        width: 90%;
+
+    }
+}
