@@ -32,7 +32,7 @@ h1{
 .container{
     
     width: 90%;
-    margin: 0 auto;
+    margin: 0px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -42,12 +42,12 @@ h1{
 
 .columna{
    display: block;
-   margin: 0;
+   margin: 0px;
    /* align-items: baseline; */
 }
   
 .bruce img{
-    width: 430px;
+    max-width: 430px;
     
 }
 
@@ -73,7 +73,8 @@ h1{
 
 @media (max-width:850px){
     .bruce img{
-        width: 300px;
+        max-width: 300px;
+        margin:0px;
     }
 }
 
@@ -91,10 +92,10 @@ h1{
 
 
 .container-banner{
-    max-width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 0;
+    min-width: 100%;
+    overflow:hidden;
+    margin: 0px auto;
+    padding: 0px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -104,7 +105,7 @@ h1{
 .container-banner img {
     display: block;
     max-width: none;
-
+     
 }
 
 /* SSERVICIOS
@@ -138,7 +139,7 @@ h1{
 
 .planes{
     padding: 50px;
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
