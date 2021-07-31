@@ -11,10 +11,22 @@ h1{
     text-align: center;
 }
 
+h2{
+    color: #011627;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+}
+
 hr{
     width: 30%;
     border: solid 0.5px #011627;
 }
+
+a{
+    text-decoration: none;
+}
+
 
 /* NAV */
 
@@ -55,6 +67,7 @@ nav ul{
          max-height: 5vh;
          z-index: 2;
          background-color: white;
+         
          
      }   
     .nav-links{
@@ -137,6 +150,12 @@ nav ul{
 }
 
 @media (max-width:850px){
+    
+    .container{
+        margin-bottom: 50px;
+    }
+
+
     .bruce img{
         max-width: 300px;
         margin:0px;
@@ -245,6 +264,9 @@ nav ul{
     background-color: #011627;
 }
 
+
+
+
 @media (max-width: 900px){
     .planes div{
         width: 45%;
@@ -285,4 +307,67 @@ nav ul{
 
 
 
+/* contacto */
 
+
+
+.contacto{
+    padding: 30px 0px 30px 0px;
+    background-color: #7AE7C7;
+    margin: 0px;
+}
+
+.medios{
+    /* margin: 20px; */
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.medios h1 {
+    font-size: 24px;
+}
+
+.redes a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width:500px){
+
+    .medios{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .redes {
+        margin-bottom: 40px;
+        width: 90%;
+    }
+}
+
+
+footer{
+    background-color: #011627;
+    margin: 0px;
+    padding: 30px 0px 20px 0px;
+}
+
+footer h1{
+    color: #F5E663;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+footer h1 span{
+    color: #7AE7C7;
+}
+
+@media (max-width: 450px){
+    footer h1 {
+        font-size: 18px;
+    }
+}
