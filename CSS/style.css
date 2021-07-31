@@ -353,16 +353,18 @@ nav ul{
 footer{
     background-color: #011627;
     margin: 0px;
-    padding: 30px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 footer h1{
+    font-weight: 300;
     color: #F5E663;
     font-size: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 footer h1 span{
+    font-weight: 700;
     color: #7AE7C7;
 }
 
