@@ -8,12 +8,18 @@ h1{
     font-size: 32px;
     color: #011627;
     font-weight: bold;
+    text-align: center;
+}
+
+hr{
+    width: 30%;
+    border: solid 0.5px #011627;
 }
 
 /* NAV */
 
 .nav{
-    min-height: 8vh;
+    min-height: 5vh;
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -40,16 +46,19 @@ nav ul{
     display: none;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 550px){
     body{
         overflow-x: hidden;
     }
 
+     nav {
+         max-height: 5vh;
+     }   
     .nav-links{
         position: absolute;
         right: 0px;
         height: 92vh;
-        top: 8vh;
+        top: 5vh;
         background-color: #011627;
         color: white;
         display: flex;
@@ -108,6 +117,7 @@ nav ul{
     font-size: 62px;
     font-weight: 900;
     line-height: 95%;
+    text-align: left;
     
 }
 
@@ -175,18 +185,13 @@ nav ul{
     text-align: center;
 }
 
-.serv p{
+.p-serv{
     padding: 10px;
     margin: auto;
-    width: 40%;
+    width: 60%;
     text-align: center;
 }
 
-.hr{
-    width: 30%;
-    color: #011627;
-    
-}
 
 
 /* Planes */
@@ -250,3 +255,28 @@ nav ul{
 
     }
 }
+
+
+
+/* Nosotros */
+
+.nosotros{
+    background-color: #F5E663;
+    padding: 30px 0 30px 0px;
+    /* background-color:#7AE7C7; */
+    background-image: url(../IMG/waves.svg);
+    /* opacity: 30%; */
+
+}
+
+.nosotros div div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nosotros  div p span{
+    line-height: 140%;
+}
+
