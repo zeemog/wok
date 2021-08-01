@@ -410,3 +410,17 @@ footer h1 span {
     font-size: 18px;
   }
 }
+
+/* boton Top
+ */
+
+.top-btn {
+  background-color: #f5e663;
+  border-radius: 10px;
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  right: 32px;
+  bottom: 32px;
+  padding: 20px;
+}
