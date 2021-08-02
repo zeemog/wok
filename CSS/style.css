@@ -277,8 +277,12 @@ nav ul {
 }
 
 @media (max-width: 500px) {
+  .planes {
+    padding: 25px;
+  }
+
   .planes div {
-    width: 85%;
+    width: 95%;
   }
 }
 
